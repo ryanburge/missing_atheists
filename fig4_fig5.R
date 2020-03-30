@@ -172,7 +172,7 @@ graph %>%
   theme_gg("Poppins", legend = TRUE) +
   y_pct() +
   scale_fill_npg() +
-  labs(x = "", y = "", title = "Predicted Atheists in 2010 vs. Atheist in 2008/2012", caption = "Data: CCES 2008-2012") +
+  labs(x = "", y = "", title = "Predicted Atheists in 2010 vs. Atheists in 2008/2012", caption = "Data: CCES 2008-2012") +
   ggsave("D://missing_atheists/images/fig4.png", type = "cairo-png", width = 7)
   
 ### Figure 5 ####
